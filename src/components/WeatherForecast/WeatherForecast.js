@@ -5,17 +5,6 @@ import './weather.css'
 
 class WeatherForecast extends React.Component {
 
-	fetch('https://api.openweathermap.org/data/2.5/forecast?q=Austin,US&units=imperial&APPID=e64ad6bb3e187568a4a6dc2e3d973671')  
-	  .then(function(resp) { return resp.json() }) // Convert data to json
-	  .then(function(data) {
-	  	console.log(data);
-	    
-	    // for loop incrementing by 8 seems to work for dividing into 5 days
-
-	  })
-	  .catch(function() {
-	    // catch any errors
-	  });
 
 	render() {
 		return (
