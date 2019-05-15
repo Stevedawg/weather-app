@@ -42,25 +42,21 @@ body {
 }
 
 .minMaxContainer {
-	margin:10px auto;
+	margin:12px auto;
 	width:90%;
 	text-align: center;
-	display:flex;
 }
 
 .maxContainer {
-	color:#B4B4B4;
- 	order:1;
- 	font-size:20px;
+	color:#686868;
+ 	font-size:18px;
  	font-weight:bold;
  	margin:0;
 
 }
 
 .minContainer {
-	color:#B4B4B4;
+	color:#686868;
 	margin: 0 0 0 auto;
-	order:2;
-	font-size:20px;
-	font-weight:bold;
+	font-size:16px;
 }
