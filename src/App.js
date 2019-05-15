@@ -4,9 +4,11 @@ import Weather from './components/Weather/weather'
 function App() {
   return (
     <div className="App">
-      <h1>Austin 5 day Weather Forecast</h1>
-      <div id="weatherContainer">
-        <Weather />
+      <div id="wrapper">
+        <h1>Austin 5 day Weather Forecast</h1>
+          <div id="weatherContainer">
+            <Weather />
+          </div>
       </div>
     </div>
   );
