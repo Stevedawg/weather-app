@@ -1,11 +1,17 @@
 
 body {
 	font-family: 'Helvetica Neue', Helvetica, Sans-Serif;
+	background: url("weather.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 h1 {
 	color:#B620E0;
 	font-size: 32px;
+	margin:0px;
 }
 
 #wrapper {
@@ -16,6 +22,14 @@ h1 {
 	display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+}
+
+.headlineWrapper {
+	background-color: #FFFFFF;
+	background: rgba(255, 255, 255, 0.8);
+	padding:16px 32px;
+	margin-bottom:24px;
+	display:inline-block;
 }
 
 .weatherBox {

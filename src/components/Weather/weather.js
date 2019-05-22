@@ -57,35 +57,35 @@ class Weather extends React.Component {
 	      	weatherImg: 'http://openweathermap.org/img/w/' + data.list[0].weather[0].icon + '.png',
 	      	tempMax: Math.floor(data.list[0].main.temp_max),
 	      	tempMin: Math.floor(data.list[0].main.temp_min),
-	      	date: moment(data.list[0].dt_txt).format("MMM Do YYYY"),
+	      	date: moment(data.list[0].dt_txt).format("MMM Do, YYYY"),
 
 	      	temperature2: Math.floor(data.list[8].main.temp),
 	      	weatherDescription2: data.list[8].weather[0].main,
 	      	weatherImg2: 'http://openweathermap.org/img/w/' + data.list[0].weather[0].icon + '.png',
 	      	tempMax2: Math.floor(data.list[8].main.temp_max),
 	      	tempMin2: Math.floor(data.list[8].main.temp_min),
-	      	date2: moment(data.list[8].dt_txt).format("MMM Do YYYY"),
+	      	date2: moment(data.list[8].dt_txt).format("MMM Do, YYYY"),
 
 	      	temperature3: Math.floor(data.list[16].main.temp),
 	      	weatherDescription3: data.list[16].weather[0].main,
 	      	weatherImg3: 'http://openweathermap.org/img/w/' + data.list[0].weather[0].icon + '.png',
 	      	tempMax3: Math.floor(data.list[16].main.temp_max),
 	      	tempMin3: Math.floor(data.list[16].main.temp_min),
-	      	date3: moment(data.list[16].dt_txt).format("MMM Do YYYY"),
+	      	date3: moment(data.list[16].dt_txt).format("MMM Do, YYYY"),
 
 	      	temperature4: Math.floor(data.list[24].main.temp),
 	      	weatherDescription4: data.list[24].weather[0].main,
 	      	weatherImg4: 'http://openweathermap.org/img/w/' + data.list[24].weather[0].icon + '.png',
 	      	tempMax4: Math.floor(data.list[24].main.temp_max),
 	      	tempMin4: Math.floor(data.list[24].main.temp_min),
-	      	date4: moment(data.list[24].dt_txt).format("MMM Do YYYY"),
+	      	date4: moment(data.list[24].dt_txt).format("MMM Do, YYYY"),
 
 	      	temperature5: Math.floor(data.list[32].main.temp),
 	      	weatherDescription5: data.list[32].weather[0].main,
 	      	weatherImg5: 'http://openweathermap.org/img/w/' + data.list[32].weather[0].icon + '.png',
 	      	tempMax5: Math.floor(data.list[32].main.temp_max),
 	      	tempMin5: Math.floor(data.list[32].main.temp_min),
-	      	date5: moment(data.list[32].dt_txt).format("MMM Do YYYY")
+	      	date5: moment(data.list[32].dt_txt).format("MMM Do, YYYY")
 	      	}));
 	 }
 
